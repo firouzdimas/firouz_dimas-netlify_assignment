@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	background-color: #98d2f7;
+	color: rgb(255, 255, 255);
+	padding-bottom: 25px;
+}
+.nav {
+    background-color: green;
+    margin-bottom: 32px;
+  }
+.banner{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin-top: 50px;
+}
+.head-banner{
+	margin-bottom: 50px;
+	text-align: justify;
+}
+.head-banner img{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+}
+.content-banner{
+	text-align: justify;
+}
+.content-banner h1{
+	text-align: left;
+	margin-bottom: 10px;
+}
+.content-banner a{
+	color: rgb(38, 202, 207);
+	font-weight: bold;
+}
+
+main{
+	padding: 10px 10px 50px 10px;
+	
+}
+.education{
+	
+	margin-top: 20px;
+	text-align: justify;
+}
+.education h3 {
+	margin-bottom: 10px;
+}
+.experience{
+	
+	margin-top: 20px;
+	text-align: justify;
+}
+.experience h3 {
+	margin-bottom: 10px;
+}
+
+.contact{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.contact h3 {
+	margin-bottom: 10px;
+}
+form {
+	width: 100%;
+	display: grid;
+	grid-template-rows: auto auto ;
+	grid-gap: 10px;
+}
+input{
+	border-radius: 3px;
+	border: 1px solid#2053ac;
+	color: #ffffff;
+}
+textarea{
+	border-radius: 3px;
+	border: 1px solid#354259;
+	color: #ffffff;
+}
+.form-control{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 25% auto ;
+}
+.textarea-control{
+	width: 100%;
+	display: grid;
+	grid-template-rows: auto auto ;
+}
+
+
+/*mobile*/
+@media only screen and (min-width: 320px) {
+	
+	.banner{
+	
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		margin-top: 50px;
+	}
+	.head-banner{
+		
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.head-banner img{
+		width: 250px;
+		height: 250px;
+		border-radius: 100%;
+	}
+	.content-banner{
+		text-align: justify;
+	}
+	.content-banner h1{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.content-banner a{
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+	main{
+		padding: 10px 10px 50px 10px;
+		/*border: 1px solid#000;*/
+	}
+	.education{
+		/*border: 1px solid#000;*/
+		margin-top: 20px;
+		text-align: justify;
+	}
+	.education h3 {
+		margin-bottom: 10px;
+	}
+	.experience{
+		/*border: 1px solid#000;*/
+		margin-top: 20px;
+		text-align: justify;
+	}
+	.experience h3 {
+		margin-bottom: 10px;
+	}
+	
+	.contact{
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.contact h3 {
+		margin-bottom: 10px;
+	}
+	form {
+		width: 100%;
+		display: grid;
+		grid-template-rows: auto auto ;
+		grid-gap: 10px;
+	}
+	input{
+		border-radius: 3px;
+		border: 1px solid#354259;
+		color: #354259;
+	}
+	textarea{
+		border-radius: 3px;
+		border: 1px solid#354259;
+		color: #354259;
+	}
+	.form-control{
+		width: 100%;
+		display: grid;
+		grid-template-columns: 25% auto ;
+	}
+	.textarea-control{
+		width: 100%;
+		display: grid;
+		grid-template-rows: auto auto ;
+	}
+}
+/*laptop*/
+@media only screen and (min-width: 1080px) {
+	header {
+
+		width: 100%;
+		background-color: #28c6d1;
+		color: white;
+		padding-bottom: 50px;
+	}
+	
+	.banner{
+		
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		padding: 10px 20px 10px 100px;
+		margin-top: 50px;
+	}
+	.head-banner{
+		
+		margin-bottom: 50px;
+		width: 30%;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	.head-banner img{
+		border-radius: 100%;
+		
+	}
+	.content-banner{
+		width: 55%;
+		height: 300px;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+
+	}
+	.content-banner h1{
+		text-align: left;
+		/*border: 1px solid#000;*/
+	}
+	.content-banner a{
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+	main{
+		padding: 10px 40px 50px 100px;
+		display: flex;
+		flex-direction: column;
+		/*border: 1px solid#000;*/
+	}
+	.education{
+		/*border: 1px solid#000;*/
+		width: 49%;
+		margin-top: 20px;
+		text-align: justify;
+	}
+	.education h3 {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.experience{
+		/*border: 1px solid#000;*/
+		margin-top: 20px;
+		text-align: justify;
+		display: flex;
+		flex-direction: column;
+	}
+	.experience h3 {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	
+	.contact{
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.contact h3 {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	form {
+		width: 100%;
+		display: grid;
+		grid-template-rows: auto auto ;
+		grid-gap: 10px;
+	}
+	input{
+		border-radius: 3px;
+		border: 1px solid#354259;
+		color: #354259;
+	}
+	textarea{
+		border-radius: 3px;
+		border: 1px solid#354259;
+		color: #354259;
+	}
+	.form-control{
+		width: 100%;
+		display: grid;
+		grid-template-columns: 10% auto ;
+	}
+}
