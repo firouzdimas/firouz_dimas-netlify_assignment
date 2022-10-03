@@ -10,41 +10,72 @@
 </head>
 
 <body >
-    <header class="bg-lightblue-600 rounded-t-lg text-white p-3 pt-12 pr-5">
-        <nav class="nav">
-            <ul class="flex-row flex justify-center">
-              <li><a href="#home" class="m-8">Home</a></li>
-              <li><a href="#experience" class="m-8">Experience</a></li>
-              <li><a href="#contact" class="m-8">Contact Me</a></li>
-            </ul>
-          </nav>
-        <div class="banner">
-            <div class="head-banner" > 
-                    <td><img src="src/img/FirouzDimas.jpg" alt="Profile Picture" width="200px" </td>
-            </div>
-            
-            <div class="content-banner">
-                <table>
-                    <tr>
-                        <td>
-                            <h1>Muhammad Firouz Dimas Sadewo</h1>
-                            <p> <em> <strong>Oceanography Student At Diponegoro University</strong></em></p>
-                                <a href="https://www.linkedin.com/in/firouzdimas/" >Linkedin</a></p>
-                                <a href="https://github.com/firouzdimas">Github</a></p>
-                            <p>Currently studying on stages 3 (Junior Undergraduate) at Oceanography Diponegoro University.Looking to secure a challenging experience where skills and previous knowledge can be applied. My Objectives is to explore and understand the world around and utilize my potentials for the better understanding and necessary awareness spreading on oceanography issues and thereby working for an eco friendly world</p>
-                        </td>
-                     </tr>
-                </table>
-            </div>
-        </div>
-    </header>
+    <main class="bg-blue-500 square p-5 pt-15 pr-10">
+        <header>
+            <nav class="rounded py-3 px-10 bg-green-400">
+                <ul class="flex-row flex justify-center">
+                <li><a href="#home" class="m-8">Home</a></li>
+                <li><a href="#experience" class="m-8">Experience</a></li>
+                <li><a href="#contact" class="m-8">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
+            <section class="py-1 px-10 bg-sky-300">
+                    <div class="w-[90%] mx-auto mt-10 bg-sky-400 shadow-xl rounded-xl flex-col md:w-[90%] sm:w-[90%]">
+                        <div class="head-banner" >   
+                        <p class="text-white text-3xl font-italic">Selamat datang di website portofolio saya! </p>
+                        
+                                <img src="src/img/FirouzDimas.jpg" alt="Profile Picture" style=" display:block; margin:auto;">
+                               </div>
+                    </div>
+                    
+                     
+                    <section class="w-[90%] mx-auto mt-10 bg-sky-500 shadow-xl rounded-xl flex-col md:w-[90%] sm:w-[90%] ">
+                        
+                        <table>
+                            <tr>
+                                <td>
+                                    <h3 class="font-bold">Muhammad Firouz Dimas Sadewo</h3>
+                                    <br>
+                                    <p> <em>Oceanography Student At Diponegoro University</em></p>
+                                    <br>
+                                    <p>Currently studying on stages 3 (Junior Undergraduate) at Oceanography Diponegoro University.Looking to secure a challenging experience where skills and previous knowledge can be applied. My Objectives is to explore and understand the world around and utilize my potentials for the better understanding and necessary awareness spreading on oceanography issues and thereby working for an eco friendly world</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class=" mt-5"> 
+                        <ul>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/firouzdimas/"
+                              class="underline m-4 text-blue-800"
+                              >LinkedIn</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/firouzdimas"
+                              class="underline m-4 text-blue-800"
+                              >Github</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+            </section>
+            
+               
+            
+
+
+    <div class="w-[90%] mx-auto mt-10 bg-sky-200 shadow-xl rounded-xl flex-col md:w-[90%] sm:w-[90%]">
         <section class="education" id="education">
-            <br>
             <h3 class="font-bold text-2xl">Education</h3>
             <br>
-            <div class="flex flex-col mt-6 md:flex-row  justify-between sm:flex-col ">
+            <hr>
+            <br>
             <table >
                 <tr>
                     <td>2019 - Present</td>
@@ -54,8 +85,7 @@
                     <td></td>
                     <td><em>Bachelor Degree in Oceanography Sciences</em></td>
                 </tr>
-                <tr>  
-                </tr>
+                
                 <tr>
                     <td>2015 - 2018</td>
                     <th>SMAN 81 Jakarta - <em>DKI Jakarta</th>
@@ -63,14 +93,16 @@
                 <td></td>
                 <td><em>Science Studies</em></td>
             </table>
-            <br>
+            
+            
         </section>
     
-        <section class="experience" id="experience">
+        <section class="experience" >
             <h3 class="font-bold text-2xl p-3 pt-5">Professional Experience</h3>
             <hr>
+            <br>
             <table style="width:100%">
-
+                
                 <tr>
                     <td style="width:80%"><strong>BRIN-Research Organization for Aeronautics and Space - <em>DKI Jakarta</em></strong></td>
                     <td>Maret 2022-Mei 2022</td>
@@ -149,9 +181,9 @@
                 <label>Message</label>
                 <textarea name="message" rows="4"></textarea>
             </div>
-            <center>
+            
                 <button type="submit" class="submit" >SEND</button>
-            </center>
+            
         </form>
         <p>Senang Berkenalan Dengan Anda </p>
     </section>
